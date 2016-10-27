@@ -2,6 +2,8 @@
 
 set -u
 
+mkdir fasta
+
 INPUTFILEDL=ListOfInputFiles.txt
 LINECOUNTDLA=$(wc -l $INPUTFILEDL)
 LINECOUNTDLB=$(echo $LINECOUNTDLA | tr -cd '[[:digit:]]')
